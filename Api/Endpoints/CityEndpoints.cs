@@ -10,6 +10,7 @@ public static class CiryEndpoints
 
     public static IResult GetCity([FromServices]ICityService cityService)
     {
+        //test
         //var city = cityService.GetCity();
         return Results.Ok("jdhaldhfaldhfb");
     }
